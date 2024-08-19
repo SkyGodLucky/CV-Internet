@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+  }
+
+  body {
+      font-family: 'Manrope', sans-serif;
+      font-size: 1em;
+      background-color: #800020;
+    }
+    
+    a {
+      color: #000000;
+      text-decoration: none;
+      font-size: 1.2em;
+    }
+
+    header,
+    footer {
+       background-color: white;
+       padding-top: 20px;
+       padding-bottom: 20px;
+       padding-left: 20px;
+       padding-bottom: 20px;
+     }
+     
+    footer {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    nav {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+     .logo-cyberwolf {
+      width: 38%;
+     }
+
+    h1 {
+        font-size: 3.5em;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
+    p {
+      font-family: 'Montserrat', sans-serif;
+      text-align: start;
+      margin-bottom: 80px;
+      margin-top: 80px;
+      color: white;
+      font-size: 1.5em;
+    }
+
+    .lettre {
+      display: flex;
+      flex-direction: column;
+      width: 60%;
+      align-items: center;
+      margin: auto;
+    }
+
+    section {
+      padding: 50px 20px 50px 20px;
+    }
+
+    nav a {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    header nav img {
+        margin-bottom: 18px;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .logo-cyberwolf:hover {
+      opacity: 0.5;
+    }
+
+    .lien_accueil:hover {
+      opacity: 0.5;
+    }
+
+    .lien_CV:hover {
+      opacity: 0.5;
+    }
+
+    .lien_lettre_motivation:hover {
+      opacity: 0.5;
+    }
+
+    .insta:hover {
+      opacity: 0.5;
+    }
